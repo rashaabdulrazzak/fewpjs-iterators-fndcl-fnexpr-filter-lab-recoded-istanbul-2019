@@ -6,7 +6,7 @@ function findMatching(arr,str){
     return result;
   }
   else {
-   return arr.filter( name => name.toLowercase() === str.toLowercase());
+   return arr.filter( name => name.toLowerCase() === str.toLowerCase());
     }
   }
   
