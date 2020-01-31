@@ -8,5 +8,6 @@ function fuzzyMatch(arr,str){
   return arr.filter(name => name.startsWith(str));
 }
 function matchName(arr,str){
-  
+    return  arr.filter( name => name.toLowerCase() === str.toLowerCase());
+
 }
